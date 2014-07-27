@@ -31,80 +31,80 @@ For each record in the dataset it is provided:
 - Its activity label.
 - An identifier of the subject who carried out the experiment. 
 
-El Tidy Data contiene las siguientes variables, que fueron recogidas del dataset y procesadas:
+The Tidy Data contains the following variables, which were collected and processed dataset:
 
-1	ID.Subject
-2	Activity
-3	Time.Body.Acceleration.Mean.X
-4	Time.Body.Acceleration.Mean.Y
-5	Time.Body.Acceleration.Mean.Z
-6	Time.Body.Acceleration.STD.X
-7	Time.Body.Acceleration.STD.Y
-8	Time.Body.Acceleration.STD.Z
-9	Time.Gravity.Acceleration.Mean.X
-10	Time.Gravity.Acceleration.Mean.Y
-11	Time.Gravity.Acceleration.Mean.Z
-12	Time.Gravity.Acceleration.STD.X
-13	Time.Gravity.Acceleration.STD.Y
-14	Time.Gravity.Acceleration.STD.Z
-15	Time.Body.Acceleration.Jerk.Mean.X
-16	Time.Body.Acceleration.Jerk.Mean.Y
-17	Time.Body.Acceleration.Jerk.Mean.Z
-18	Time.Body.Acceleration.Jerk.STD.X
-19	Time.Body.Acceleration.Jerk.STD.Y
-20	Time.Body.Acceleration.Jerk.STD.Z
-21	Time.Body.Gyro.Mean.X
-22	Time.Body.Gyro.Mean.Y
-23	Time.Body.Gyro.Mean.Z
-24	Time.Body.Gyro.STD.X
-25	Time.Body.Gyro.STD.Y
-26	Time.Body.Gyro.STD.Z
-27	Time.Body.Gyro.Jerk.Mean.X
-28	Time.Body.Gyro.Jerk.Mean.Y
-29	Time.Body.Gyro.Jerk.Mean.Z
-30	Time.Body.Gyro.Jerk.STD.X
-31	Time.Body.Gyro.Jerk.STD.Y
-32	Time.Body.Gyro.Jerk.STD.Z
-33	Time.Body.Acceleration.Magnitude.Mean
-34	Time.Body.Acceleration.Magnitude.STD
-35	Time.Gravity.Acceleration.Magnitude.Mean
-36	Time.Gravity.Acceleration.Magnitude.STD
-37	Time.Body.Acceleration.Jerk.Magnitude.Mean
-38	Time.Body.Acceleration.Jerk.Magnitude.STD
-39	Time.Body.Gyro.Magnitude.Mean
-40	Time.Body.Gyro.Magnitude.STD
-41	Time.Body.Gyro.Jerk.Magnitude.Mean
-42	Time.Body.Gyro.Jerk.Magnitude.STD
-43	Freq.Body.Acceleration.Mean.X
-44	Freq.Body.Acceleration.Mean.Y
-45	Freq.Body.Acceleration.Mean.Z
-46	Freq.Body.Acceleration.STD.X
-47	Freq.Body.Acceleration.STD.Y
-48	Freq.Body.Acceleration.STD.Z
-49	Freq.Body.Acceleration.Jerk.Mean.X
-50	Freq.Body.Acceleration.Jerk.Mean.Y
-51	Freq.Body.Acceleration.Jerk.Mean.Z
-52	Freq.Body.Acceleration.Jerk.STD.X
-53	Freq.Body.Acceleration.Jerk.STD.Y
-54	Freq.Body.Acceleration.Jerk.STD.Z
-55	Freq.Body.Gyro.Mean.X
-56	Freq.Body.Gyro.Mean.Y
-57	Freq.Body.Gyro.Mean.Z
-58	Freq.Body.Gyro.STD.X
-59	Freq.Body.Gyro.STD.Y
-60	Freq.Body.Gyro.STD.Z
-61	Freq.Body.Acceleration.Magnitude.Mean
-62	Freq.Body.Acceleration.Magnitude.STD
-63	Freq.Body.Body.Acceleration.Jerk.Magnitude.Mean
-64	Freq.Body.Body.Acceleration.Jerk.Magnitude.STD
-65	Freq.Body.Body.Gyro.Magnitude.Mean
-66	Freq.Body.Body.Gyro.Magnitude.STD
-67	Freq.Body.Body.Gyro.Jerk.Magnitude.Mean
-68	Freq.Body.Body.Gyro.Jerk.Magnitude.STD
+1-	ID.Subject
+2-	Activity
+3-	Time.Body.Acceleration.Mean.X
+4-	Time.Body.Acceleration.Mean.Y
+5-	Time.Body.Acceleration.Mean.Z
+6-	Time.Body.Acceleration.STD.X
+7-	Time.Body.Acceleration.STD.Y
+8-	Time.Body.Acceleration.STD.Z
+9-	Time.Gravity.Acceleration.Mean.X
+10-	Time.Gravity.Acceleration.Mean.Y
+11-	Time.Gravity.Acceleration.Mean.Z
+12-	Time.Gravity.Acceleration.STD.X
+13-	Time.Gravity.Acceleration.STD.Y
+14-	Time.Gravity.Acceleration.STD.Z
+15-	Time.Body.Acceleration.Jerk.Mean.X
+16-	Time.Body.Acceleration.Jerk.Mean.Y
+17-	Time.Body.Acceleration.Jerk.Mean.Z
+18-	Time.Body.Acceleration.Jerk.STD.X
+19-	Time.Body.Acceleration.Jerk.STD.Y
+20-	Time.Body.Acceleration.Jerk.STD.Z
+21-	Time.Body.Gyro.Mean.X
+22-	Time.Body.Gyro.Mean.Y
+23-	Time.Body.Gyro.Mean.Z
+24-	Time.Body.Gyro.STD.X
+25-	Time.Body.Gyro.STD.Y
+26-	Time.Body.Gyro.STD.Z
+27-	Time.Body.Gyro.Jerk.Mean.X
+28-	Time.Body.Gyro.Jerk.Mean.Y
+29-	Time.Body.Gyro.Jerk.Mean.Z
+30-	Time.Body.Gyro.Jerk.STD.X
+31-	Time.Body.Gyro.Jerk.STD.Y
+32-	Time.Body.Gyro.Jerk.STD.Z
+33-	Time.Body.Acceleration.Magnitude.Mean
+34-	Time.Body.Acceleration.Magnitude.STD
+35-	Time.Gravity.Acceleration.Magnitude.Mean
+36-	Time.Gravity.Acceleration.Magnitude.STD
+37-	Time.Body.Acceleration.Jerk.Magnitude.Mean
+38-	Time.Body.Acceleration.Jerk.Magnitude.STD
+39-	Time.Body.Gyro.Magnitude.Mean
+40-	Time.Body.Gyro.Magnitude.STD
+41-	Time.Body.Gyro.Jerk.Magnitude.Mean
+42-	Time.Body.Gyro.Jerk.Magnitude.STD
+43-	Freq.Body.Acceleration.Mean.X
+44-	Freq.Body.Acceleration.Mean.Y
+45-	Freq.Body.Acceleration.Mean.Z
+46-	Freq.Body.Acceleration.STD.X
+47-	Freq.Body.Acceleration.STD.Y
+48-	Freq.Body.Acceleration.STD.Z
+49-	Freq.Body.Acceleration.Jerk.Mean.X
+50-	Freq.Body.Acceleration.Jerk.Mean.Y
+51-	Freq.Body.Acceleration.Jerk.Mean.Z
+52-	Freq.Body.Acceleration.Jerk.STD.X
+53-	Freq.Body.Acceleration.Jerk.STD.Y
+54-	Freq.Body.Acceleration.Jerk.STD.Z
+55-	Freq.Body.Gyro.Mean.X
+56-	Freq.Body.Gyro.Mean.Y
+57-	Freq.Body.Gyro.Mean.Z
+58-	Freq.Body.Gyro.STD.X
+59-	Freq.Body.Gyro.STD.Y
+60-	Freq.Body.Gyro.STD.Z
+61-	Freq.Body.Acceleration.Magnitude.Mean
+62-	Freq.Body.Acceleration.Magnitude.STD
+63-	Freq.Body.Body.Acceleration.Jerk.Magnitude.Mean
+64-	Freq.Body.Body.Acceleration.Jerk.Magnitude.STD
+65-	Freq.Body.Body.Gyro.Magnitude.Mean
+66-	Freq.Body.Body.Gyro.Magnitude.STD
+67-	Freq.Body.Body.Gyro.Jerk.Magnitude.Mean
+68-	Freq.Body.Body.Gyro.Jerk.Magnitude.STD
 
-Con una dimension de 10299 x 68
+With a dimension of 10299 x 68
 
-Del dataset se utilizaron los siguientes archivos:
+Dataset from the following files are used:
 features.txt
 activity_labels.txt
 subject_train.txt
